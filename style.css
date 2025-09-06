@@ -1,0 +1,121 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  color: #222;
+}
+nav {
+  background: #263c55;
+  padding: 0.8em 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin: 0 1.5em;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #71b7f7;
+}
+header {
+  text-align: center;
+  padding: 3em 1em 2em 1em;
+  background: linear-gradient(90deg, #263c55 60%, #71b7f7 100%);
+  color: #fff;
+}
+header h1 {
+  font-size: 2.7em;
+  margin-bottom: 0.3em;
+}
+header h2 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+section {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em 2em;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(38,60,85,0.08);
+}
+section h3 {
+  color: #263c55;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 0;
+  list-style: none;
+}
+.skills-list li {
+  background: #e3ecfa;
+  color: #263c55;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.project-card {
+  flex: 1 1 280px;
+  background: #f5f7fa;
+  border: 1px solid #e3ecfa;
+  border-radius: 8px;
+  padding: 1em;
+  box-shadow: 0 1px 4px rgba(38,60,85,0.04);
+}
+.project-card h4 {
+  margin: 0 0 0.4em 0;
+  font-size: 1.05em;
+}
+.project-card a {
+  color: #263c55;
+  text-decoration: none;
+  font-weight: 600;
+}
+.project-card a:hover {
+  color: #71b7f7;
+}
+#contact p, #contact a {
+  font-size: 1.08em;
+}
+footer {
+  text-align: center;
+  padding: 2em 0 1em 0;
+  color: #888;
+  background: none;
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  section {
+    padding: 1em;
+  }
+  .projects-list {
+    flex-direction: column;
+  }
+}
