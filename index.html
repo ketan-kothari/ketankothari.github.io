@@ -2,96 +2,100 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ketan Kothari | Lead DevOps Engineer</title>
+  <title>Ketan Kothari Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <nav>
     <ul>
       <li><a href="#about">About</a></li>
+      <li><a href="#resume">Resume</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
-
   <header>
     <h1>Ketan Kothari</h1>
-    <h2>Lead DevOps Engineer</h2>
-    <p>Automating infrastructure, streamlining deployments, and driving digital transformation.</p>
+    <h2>DevOps | Cloud | Automation | SRE | Open Source Enthusiast</h2>
+    <p>Welcome to my portfolio. Explore my skills, projects, and experience.</p>
   </header>
-
   <section id="about">
     <h3>About Me</h3>
-    <p>
-      I'm Ketan Kothari, a passionate Lead DevOps Engineer with extensive experience in automation, CI/CD, cloud infrastructure, and system reliability. I thrive on solving complex problems and building scalable, secure solutions for modern businesses.
-    </p>
+    <p>I'm passionate about DevOps, automation, and building resilient cloud infrastructure. With years of experience in open source and enterprise environments, I strive for elegant, scalable solutions.</p>
   </section>
-
+  <section id="resume">
+    <h3>Resume</h3>
+    <p>
+      <a href="resume.pdf" download="Ketan_Kothari_Resume.pdf">Download My Resume (PDF)</a>
+    </p>
+    <!-- Upload your resume.pdf to the repository for this link to work -->
+  </section>
   <section id="skills">
-    <h3>Skills & Tools</h3>
+    <h3>Skills</h3>
     <ul class="skills-list">
+      <li>DevOps</li>
+      <li>Cloud (AWS, Azure, GCP)</li>
       <li>Ansible</li>
-      <li>Jenkins</li>
       <li>Docker</li>
       <li>Kubernetes</li>
+      <li>CI/CD</li>
       <li>Linux</li>
-      <li>Git & GitHub Actions</li>
-      <li>AWS</li>
-      <li>CI/CD Pipeline Design</li>
-      <li>Monitoring & Logging (Prometheus, Grafana)</li>
-      <li>Scripting: Python, Bash</li>
+      <li>SRE</li>
+      <li>Python</li>
+      <li>Shell Scripting</li>
+      <li>Git & GitHub</li>
+      <li>Open Source</li>
     </ul>
   </section>
-
   <section id="projects">
-    <h3>Featured Projects</h3>
+    <h3>Projects</h3>
     <div class="projects-list">
       <div class="project-card">
-        <h4><a href="https://github.com/ketan-kothari/local_ansible" target="_blank">Local Ansible</a></h4>
-        <p>Automation scripts and playbooks for local environment provisioning.</p>
+        <h4>Local Ansible</h4>
+        <p>Effortless configuration management and automation for local environments.</p>
+        <a href="https://github.com/ketan-kothari/local_ansible">View on GitHub</a>
       </div>
       <div class="project-card">
-        <h4><a href="https://github.com/ketan-kothari/php-apache" target="_blank">PHP Apache</a></h4>
-        <p>Dockerized PHP & Apache stack for rapid development and testing.</p>
+        <h4>PHP Apache</h4>
+        <p>Containerized PHP + Apache for web development and testing.</p>
+        <a href="https://github.com/ketan-kothari/php-apache">View on GitHub</a>
       </div>
       <div class="project-card">
-        <h4><a href="https://github.com/ketan-kothari/hello-world-jenkins" target="_blank">Hello World Jenkins</a></h4>
-        <p>Sample Jenkins pipeline for continuous integration and deployment.</p>
+        <h4>Hello World Jenkins</h4>
+        <p>Demo project for CI/CD pipeline automation using Jenkins.</p>
+        <a href="https://github.com/ketan-kothari/hello-world-jenkins">View on GitHub</a>
       </div>
       <div class="project-card">
-        <h4><a href="https://github.com/ketan-kothari/ansible" target="_blank">Ansible</a></h4>
-        <p>Advanced Ansible playbooks for multi-tier infrastructure automation.</p>
+        <h4>Ansible</h4>
+        <p>Advanced playbooks and roles for scalable infrastructure automation.</p>
+        <a href="https://github.com/ketan-kothari/ansible">View on GitHub</a>
       </div>
       <div class="project-card">
-        <h4><a href="https://github.com/ketan-kothari/nsssupport" target="_blank">NSS Support</a></h4>
-        <p>Support scripts for network security services management.</p>
+        <h4>NSS Support</h4>
+        <p>Support tooling for network security services and automation.</p>
+        <a href="https://github.com/ketan-kothari/nsssupport">View on GitHub</a>
       </div>
     </div>
   </section>
-
   <section id="contact">
-    <h3>Contact</h3>
-    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/ketan-kothari" target="_blank">@ketan-kothari</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/ketankothari" target="_blank">linkedin.com/in/ketankothari</a></p>
+    <h3>Contact Me</h3>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="hidden" name="_subject" value="Portfolio Contact: ketankothari.github.io">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Or email directly: <a href="mailto:ketankothari1992@gmail.com">ketankothari1992@gmail.com</a></p>
   </section>
-
   <footer>
-    <p>&copy; 2025 Ketan Kothari</p>
+    &copy; 2025 Ketan Kothari. All rights reserved.
   </footer>
-
-  <script>
-    // Smooth scroll for navigation
-    document.querySelectorAll('nav a').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-  </script>
 </body>
 </html>
